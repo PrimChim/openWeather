@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="search">
+                <input type="text" class="search-bar" placeholder="City name" id="searchbar">
+                <input type="submit" class="button" value="search" id="submitb">
+            </div>
+            <div class="weather">
+                <div class="first-three">
+                    <h2 class="name">City</h2>
+                    <p class="temp">51°C</p>
+                    <img src="https://openweathermap.org/img/wn/04n@2x.png" id="icon">
+                </div>
+                <div class="last">
+                    <p id="rain"></p>
+                    <p class="humm">Humidity</p>
+                    <p class="pressure"></p>
+                    <p class="wind">Wind speed : 6.2 km/hrs</p>
+                    <p id="direction"></p>
+                    <p id="date"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="text.js"></script>
+</body>
+</html>

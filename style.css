@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img#icon {
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.container{
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    margin: 0px;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.box {
+    display: flex;
+    font-size: larger;
+    padding: 1em;
+    background: #00000071;
+    border-radius: 30px;
+    width: 500px;
+    flex-direction: column;
+}
+
+.search{
+    display: flex;
+    justify-content: space-around;
+}
+
+input.search-bar {
+    width: 75%;
+    border-radius: 20px;
+    height: 30px;
+    background: #00000070;
+    border: 0px;
+    color: white;
+    padding-left: 10px;
+}
+
+input.button {
+    width: 75px;
+    border-radius: 20px;
+    background: #000000a1;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+input.button:hover {
+    background: #747474;
+}
+
+.weather {
+    font-size: 20px;
+    font-family: 'Pushster', cursive;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.last{
+    font-family: 'Roboto Condensed', sans-serif;
+}
